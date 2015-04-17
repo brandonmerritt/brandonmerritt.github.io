@@ -1,0 +1,190 @@
+/* green color: #99ff00 */
+html {
+	overflow-y:scroll;
+}
+
+body {
+	font-family: 'Vegur';
+	font-size:16pt;
+	color:#999;
+}
+
+a {
+	color:#66cc00;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	font-weight:normal;
+}
+
+h1 {
+	font-size: 24pt;
+	line-height:22pt;
+}
+
+h2 {
+	font-size: 16pt;
+	line-height:16pt;
+}
+
+p, ul {
+	margin:10px 0;
+	line-height:20px;
+}
+
+p.intro {
+	text-align:justify;
+}
+
+.bold {
+color:#3c3c3c;
+}
+
+@font-face {
+  font-family: 'Vegur';
+  src: url('fonts/Vegur-R_0500.eot');
+	
+  src: local('Vegur Regular'), local('Vegur-Regular'), 
+       url('fonts/Vegur-R_0500.ttf') format('truetype');
+}
+
+#header {
+	clear:both;
+	padding:15px 0;
+}
+
+.logo {
+	cursor:pointer;
+}
+
+#nav ul  {
+	margin:0;
+}
+
+#nav ul li{
+	font-size:20pt;
+	line-height:40px;
+}
+
+#nav ul li:hover{
+	background-color:#99ff00;
+	cursor:pointer;
+}
+
+#nav ul li a{
+	color:#999;
+}
+#block {
+	height:490px;
+	overflow:hidden;
+}
+.details {
+	margin-bottom:35px;
+}
+#footer ul{
+	margin:20px 0 5px 0;
+}
+
+#footer ul li{ 
+	display:inline;
+}
+#footer ul li a{ 
+	background:#99ff00;
+	color:#999;
+	margin:0 13px;
+}
+#footer ul li.last a{ 
+	margin-right:0;
+}
+.work-grid {
+	margin-bottom:20px;
+}
+
+.align-right {
+	text-align:right;
+}
+
+ ul.project-nav li{
+	display:inline;
+}
+
+.green-font {
+	color:#99ff00;
+}
+
+div.project-img {
+	position:relative;
+}
+
+.project-nav{
+	text-align:right;
+	color:#99ff00;	
+}
+
+#learn-hover {
+	width:100%;
+	text-decoration:none!important;
+	background:#99ff00;
+	color:#6e6e6e;
+	display:block;
+	position:absolute!important;
+	font-size:90%;
+	bottom:-15px;
+	left:0;
+}
+.project-cycle{
+	height:356px;
+	width:700px;
+}
+
+.project-cycle img {
+	cursor:pointer;
+}
+#my-projects {
+	height:490px;
+}
+#my-projects p {
+	margin:0 10px 30px 10px;
+	line-height:21px;
+}
+#block {
+	text-transform:lowercase;
+	font-size:90%;
+}
+.activeSlide {
+	background:#99ff00;
+	color:#999;
+}
+#resume #block ul.bullets li {
+	background:url('../img/bullet.png') left 4px no-repeat;
+	padding-left: 15px;
+	list-style: none;
+}
+#resume #block h1{
+	color:#99ff00;;
+	font-size:20pt;
+	margin:20px 0 0 0;
+}
+#resume #block h2{
+	background:#99ff00;
+	color:#999;
+	font-size:14pt;
+	margin:20px 0 10px 0;
+}
+#resume #block h1:first-child {
+	margin-top:0px;
+}
+#download {
+	background-color:#99ff00;
+	float:right;
+	width:auto;
+	height:auto;
+}
+#download a{
+	color:#999;
+}
